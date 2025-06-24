@@ -1,48 +1,31 @@
-/* style.css */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
 }
 
 header {
-  text-align: center;
-  border-bottom: 2px solid #444;
-  padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.title {
-  font-size: 1.2rem;
-  color: #666;
+.project-card {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-h1, h2, h3 {
-  color: #222;
+.tech {
+    color: #586069;
+    font-style: italic;
 }
 
-section {
-  margin-top: 20px;
-}
-
-.job ul, section ul {
-  padding-left: 20px;
-}
-
-a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.links a {
+    margin-right: 15px;
+    color: #0366d6;
+    text-decoration: none;
 }
