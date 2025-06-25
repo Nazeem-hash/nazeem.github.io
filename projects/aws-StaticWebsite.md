@@ -1,6 +1,6 @@
 # AWS Static Website Hosting
 
-![Architecture Diagram](images/Arch.png)
+![Architecture Diagram](/images/Arch.png)
 
 ## Project Overview
 Hosted a static portfolio website using:
